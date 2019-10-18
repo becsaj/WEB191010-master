@@ -185,6 +185,26 @@
     <Compile Include="Migrations\201910111718031_PopulateElofizetesek.Designer.cs">
       <DependentUpon>201910111718031_PopulateElofizetesek.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910181424308_AddDataAnotations01.cs" />
+    <Compile Include="Migrations\201910181424308_AddDataAnotations01.Designer.cs">
+      <DependentUpon>201910181424308_AddDataAnotations01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910181447400_AddTestNevek.cs" />
+    <Compile Include="Migrations\201910181447400_AddTestNevek.Designer.cs">
+      <DependentUpon>201910181447400_AddTestNevek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910181607170_UpdateNev.cs" />
+    <Compile Include="Migrations\201910181607170_UpdateNev.Designer.cs">
+      <DependentUpon>201910181607170_UpdateNev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910181627237_Szuletes.cs" />
+    <Compile Include="Migrations\201910181627237_Szuletes.Designer.cs">
+      <DependentUpon>201910181627237_Szuletes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910181652023_UpdateSzuletes.cs" />
+    <Compile Include="Migrations\201910181652023_UpdateSzuletes.Designer.cs">
+      <DependentUpon>201910181652023_UpdateSzuletes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ElofizetesTipus.cs" />
@@ -317,6 +337,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910111718031_PopulateElofizetesek.resx">
       <DependentUpon>201910111718031_PopulateElofizetesek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910181424308_AddDataAnotations01.resx">
+      <DependentUpon>201910181424308_AddDataAnotations01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910181447400_AddTestNevek.resx">
+      <DependentUpon>201910181447400_AddTestNevek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910181607170_UpdateNev.resx">
+      <DependentUpon>201910181607170_UpdateNev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910181627237_Szuletes.resx">
+      <DependentUpon>201910181627237_Szuletes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910181652023_UpdateSzuletes.resx">
+      <DependentUpon>201910181652023_UpdateSzuletes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

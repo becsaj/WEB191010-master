@@ -11,5 +11,6 @@ namespace WEB191010.Models
         public int Dij { get; set; }
         public int Kedvezmeny { get; set; }
         public int IdotartamHonap { get; set; }
+        public String Nev { get; set; }
     }
 }

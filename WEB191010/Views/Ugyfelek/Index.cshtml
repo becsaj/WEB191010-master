@@ -16,7 +16,11 @@ else
 {
     <table class="table table-bordered table-hover">
         <thead>
-            <tr><th>ügyfél neve</th></tr>
+            <tr>
+                <th>Ügyfelek neve</th>
+                <th>Előfizetés tipúsok</th>
+            </tr>
+
         </thead>
         <tbody>
             @foreach (var u in Model)
@@ -24,6 +28,9 @@ else
                 <tr>
                     <td>
                         @Html.ActionLink(u.Nev, "Reszletek", "Ugyfelek", new { id = u.Id }, null)
+                    </td>
+                    <td>
+                        @u.ElofizetesTipus.Nev
                     </td>
                 </tr>
             }

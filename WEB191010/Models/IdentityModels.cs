@@ -22,6 +22,7 @@ namespace WEB191010.Models
     {
         public DbSet<ElofizetesTipus> Elofizetesek { get; set; }
         public DbSet<Ugyfel> Ugyfelek { get; set; }
+        public DbSet<Film> Filmek { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
